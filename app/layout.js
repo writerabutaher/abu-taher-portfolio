@@ -1,7 +1,7 @@
-import Navbar from '@/components/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Footer from '@/components/Footer'
+import Footer from '@/components/Footer/Footer'
+import MainNav from '@/components/Navbar/MainNav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} bg-gradient-to-r from-slate-900 to-slate-700`}>
         <div className='max-w-screen-xl mx-auto px-4'>
-          <Navbar />
+          <MainNav />
           {children}
         </div>
         <Footer />
