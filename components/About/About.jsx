@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import programming from '../../assets/programming.png'
 
 const About = () => {
     return (
@@ -7,8 +9,8 @@ const About = () => {
                 <h1 className='md:text-6xl text-4xl text-center'><span className='relative before:absolute before:w-full before:h-2 before:bg-pink-600 before:bottom-1'><span className='relative text-white'>ABOUT ME</span></span></h1>
             </div>
             <div className='md:flex justify-between items-center'>
-                <div className='md:w-1/2 flex justify-center'>
-                    <img className='w-[40rem]' src="" alt="" />
+                <div className='md:w-1/2'>
+                    <Image className='w-[30rem]' src={programming} alt="" />
                 </div>
                 <div className='md:w-1/2'>
                     <div>

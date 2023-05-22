@@ -25,15 +25,15 @@ const Skills = () => {
                         <div className='border-pink-600 border-2 w-1/4'></div>
                     </div>
                     <div className='grid grid-cols-2 md:grid-cols-3 justify-center'>
-                        <Image className='w-[6rem] pb-8' src={html} alt='' />
-                        <Image className='w-[6rem] pb-8' src={css} alt='' />
-                        <Image className='w-[6rem] pb-8' src={js} alt='' />
-                        <Image className='w-[6rem] pb-8' src={firebase} alt='' />
-                        <Image className='w-[6rem] pb-8' src={mongo} alt='' />
+                        <Image className='w-[6rem] pb-8' src={html} alt='html' />
+                        <Image className='w-[6rem] pb-8' src={css} alt='css' />
+                        <Image className='w-[6rem] pb-8' src={js} alt='js' />
+                        <Image className='w-[6rem] pb-8' src={firebase} alt='firebase' />
+                        <Image className='w-[6rem] pb-8' src={mongo} alt='mongo' />
                         <Image className='w-[6rem] pb-8' src={typescript} alt='' />
                         <Image className='w-[6rem] pb-8' src={next} alt='' />
                         <Image className='w-[6rem] pb-8' src={react} alt='' />
-                        <Image className='w-[6rem] pb-8' src={node} alt='' />
+                        <Image className='w-[6.5rem] pb-8' src={node} alt='' />
                     </div>
                 </div>
                 <div className='md:w-1/2'>

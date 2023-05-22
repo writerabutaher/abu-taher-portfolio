@@ -23,7 +23,7 @@ const style = {
     menu: {
         open: `h-full w-full `,
         close: `w-0 h-full`,
-        default: `overflow-x-hidden md:overflow-hidden transition-all duration-700 fixed z-10 top-0 left-0 bg-black`,
+        default: `overflow-x-hidden md:overflow-hidden transition-all duration-700 fixed z-10 top-0 left-0 bg-gradient-to-r from-slate-900 to-slate-700`,
     },
 };
 

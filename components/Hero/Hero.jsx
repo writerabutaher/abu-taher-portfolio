@@ -1,6 +1,9 @@
 "use client"
+
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
+import profile from '../../assets/profile.png'
+import Image from 'next/image'
 
 const Hero = () => {
 
@@ -8,7 +11,7 @@ const Hero = () => {
         <div className='md:mt-20 mt-10'>
             <div className='md:flex md:flex-row-reverse justify-between items-center'>
                 <div className='flex justify-center'>
-                    <img className='w-[30rem]' src='https://abu-taher-portfolio.web.app/static/media/profile.3ebf33c93f1f9b90879a.png' alt="" />
+                    <Image className='w-[30rem]' src={profile} alt='profile' />
                 </div>
                 <div className='flex flex-col gap-6 md:w-1/2'>
                     <div className='flex flex-col gap-4'>
