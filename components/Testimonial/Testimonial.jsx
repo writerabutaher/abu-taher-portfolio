@@ -8,7 +8,7 @@ import { LOOP } from '@splidejs/splide';
 
 const Testimonial = () => {
     return (
-        <div id='testimonial' className='md:my-32 my-20'>
+        <div id='testimonial' className='md:my-32 mt-20'>
             <div className='md:pb-10 pb-6'>
                 <h1 className='md:text-6xl text-4xl text-center'><span className='relative before:absolute before:w-full before:h-2 before:bg-pink-600 before:bottom-1'><span className='relative text-white'>TESTIMONIAL</span></span></h1>
             </div>

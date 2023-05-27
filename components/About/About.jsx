@@ -8,7 +8,7 @@ const About = () => {
             <div className='md:pb-10 pb-6'>
                 <h1 className='md:text-6xl text-4xl text-center'><span className='relative before:absolute before:w-full before:h-2 before:bg-pink-600 before:bottom-1'><span className='relative text-white'>ABOUT ME</span></span></h1>
             </div>
-            <div className='md:flex justify-between items-center'>
+            <div className='flex flex-col md:flex-row gap-4 justify-between items-center'>
                 <div className='md:w-1/2'>
                     <Image className='w-[30rem]' src={programming} alt="" />
                 </div>
