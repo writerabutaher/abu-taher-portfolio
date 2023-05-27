@@ -21,7 +21,7 @@ const Skills = () => {
                 <div className='md:w-1/2'>
                     <div className='flex items-center gap-4 py-8'>
                         <FaShoppingBag size={'2rem'} className='text-pink-600' />
-                        <h1 className='text-4xl text-white'>Skills</h1>
+                        <h1 className='md:text-4xl text-2xl text-white'>Skills</h1>
                         <div className='border-pink-600 border-2 w-1/4'></div>
                     </div>
                     <div className='grid grid-cols-2 md:grid-cols-3 justify-center'>
@@ -39,7 +39,7 @@ const Skills = () => {
                 <div className='md:w-1/2'>
                     <div className='flex items-center gap-4 py-8'>
                         <FaTags size={'2rem'} className='text-pink-600' />
-                        <h1 className='text-4xl text-white'>Education</h1>
+                        <h1 className='md:text-4xl text-2xl text-white'>Education</h1>
                         <div className='border-pink-600 border-2 w-1/4'></div>
                     </div>
                     <div className='flex flex-col gap-8 text-2xl'>
