@@ -9,14 +9,14 @@ const Hero = () => {
 
     return (
         <div className='md:mt-20 mt-10'>
-            <div className='md:flex md:flex-row-reverse justify-between items-center'>
+            <div className='flex flex-col md:flex-row-reverse gap-4 justify-between items-center'>
                 <div className='flex justify-center'>
                     <Image className='w-[30rem]' src={profile} alt='profile' />
                 </div>
-                <div className='flex flex-col gap-6 md:w-1/2'>
-                    <div className='flex flex-col gap-4'>
-                        <h3 className='md:text-4xl text-2xl font-semibold tracking-widest text-gray-400'>Hello I'm</h3>
-                        <h1 className='md:text-7xl text-4xl font-semibold tracking-wider text-pink-600'>
+                <div className='flex flex-col md:gap-6 gap-4 md:w-1/2'>
+                    <div className='flex flex-col md:gap-4 gap-2'>
+                        <h3 className='md:text-3xl text-xl font-semibold tracking-widest text-gray-400'>Hello I'm</h3>
+                        <h1 className='md:text-5xl text-2xl font-semibold tracking-wider text-pink-600'>
                             <Typewriter
                                 cursor
                                 delaySpeed={1000}
@@ -25,15 +25,19 @@ const Hero = () => {
                                 typeSpeed={75}
                                 words={[
                                     'Abu Taher',
+                                    'React Developer',
+                                    'Front-End Developer',
+                                    'MERN Developer',
+                                    'Web Developer',
                                 ]}
                             />
                         </h1>
                     </div>
-                    <p className='text-gray-400 text-sm md:text-base'>I’m Abu Taher. I’m in class 12. Recently I finished my web development course in Programming Hero. I learned all my skills very discipline way. I have done some projects which were given to me by Programming Hero. I build those projects with MERN.</p>
+                    <p className='text-gray-400 text-sm md:text-base'>I am equipped to build scalable and efficient web applications. Having successfully completed multiple projects with a focus on team collaboration, project management, and delivering high-quality work.</p>
                     <div>
                         <a
                             className="inline-flex items-center rounded-full border border-pink-600 bg-pink-600 px-8 py-3 text-white hover:bg-transparent hover:text-pink-600 focus:outline-none focus:ring active:text-pink-500"
-                            href="https://drive.google.com/file/d/1chhVtIsrpYDgIYB-Ta9C1PjnTHijrBkk/view?usp=sharing" target={'_blank'}
+                            href="https://drive.google.com/file/d/1DwZ66Vk4bN5g_Oj-fVobGA5twpayYbUu/view?usp=drive_link" target={'_blank'}
                         >
                             <span className="text-sm font-medium"> Resume </span>
 

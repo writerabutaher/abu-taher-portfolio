@@ -10,12 +10,12 @@ const About = () => {
             </div>
             <div className='flex flex-col md:flex-row gap-4 justify-between items-center'>
                 <div className='md:w-1/2'>
-                    <Image className='w-[30rem]' src={programming} alt="" />
+                    <Image className='w-[30rem]' src={programming} alt="programming" />
                 </div>
                 <div className='md:w-1/2'>
                     <div>
                         <h1 className='text-pink-600 text-4xl mb-4'>Hi There!</h1>
-                        <p className='text-gray-400 text-sm md:text-base'>I’m Abu Taher. I’m in class 12. Recently I finished my web development course in Programming Hero. I learned all my skills very discipline way. I have done some projects which were given to me by Programming Hero. I build those projects with MERN. I face some struggles and errors to make those projects, which is growing my confidence and skills. I’m also excited to build some projects with Next JS and Material UI.</p>
+                        <p className='text-gray-400 text-sm md:text-base'>I am eager to contribute my skills to a dynamic and innovative company. I am committed to continuous learning and staying updated with the latest technologies in order to drive growth and deliver exceptional results. Seeking an opportunity to join a supportive team where I can further enhance my skills, contribute to meaningful projects, and advance my career in web development.</p>
                     </div>
                     <div className='w-full border-b-2 border-white my-4'></div>
                     <div>
@@ -23,7 +23,7 @@ const About = () => {
                         <div className='grid grid-cols-2 gap-4'>
                             <p className='text-white'><span className='text-gray-400'>Name: <br className='md:hidden' /> </span>Abu Taher</p>
                             <p className='text-white'><span className='text-gray-400'>Address: <br className='md:hidden' /> </span>Uttar Badda, Dhaka</p>
-                            <p className='text-white'><span className='text-gray-400'>Phone: <br className='md:hidden' /> </span>01905043478</p>
+                            <p className='text-white'><span className='text-gray-400'>Phone: <br className='md:hidden' /> </span>+8801905043478</p>
                             <p className='text-white'><span className='text-gray-400'>Nationality: <br className='md:hidden' /> </span>Bangladeshi</p>
                             <p className='text-white'><span className='text-gray-400'>Language: <br className='md:hidden' /> </span>English, Bangla</p>
                             <p className='text-white'><span className='text-gray-400'>Gender: <br className='md:hidden' /> </span>Male</p>

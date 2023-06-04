@@ -30,9 +30,9 @@ const Testimonial = () => {
                             const { name, text, img, work } = e;
                             return (
                                 <SplideSlide className='flex flex-col md:justify-center items-center' key={i}>
-                                    <div className='md:flex justify-between items-center gap-8 md:w-[60rem] md:p-8 p-4 bg-slate-600 rounded-2xl'>
+                                    <div className='flex flex-col md:flex-row justify-between items-center gap-8 md:w-[60rem] md:p-8 p-4 bg-slate-600 rounded-2xl'>
                                         <div className='md:block hidden'>
-                                            <img className='md:w-[60rem]' src={img} alt="" />
+                                            <img className='md:w-[40rem]' src={img} alt="testimonial" />
                                         </div>
                                         <div className='flex flex-col justify-between gap-4'>
                                             <div>
@@ -62,13 +62,19 @@ const Testimonial = () => {
 const testimonials = [
     {
         name: "Asif Sikder",
-        text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, modi recusandae? Qui dolorum, blanditiis vitae deleniti, aliquid, accusantium laboriosam assumenda optio labore quae reiciendis error quo a eveniet sed in.",
+        text: " I highly recommend Abu Taher for any web development role. Their exceptional skills, dedication, and passion for their work make them a valuable asset to any team.",
         work: "Web Developer",
         img: "https://ouch-cdn2.icons8.com/-JZptPGuKRXkyuzdLeFBi71mdKqKYQHlVYx_4AQFhdQ/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNTIx/LzYyOTBlMmU4LWQ2/NmMtNDgzMS1hOWFl/LTUwNDQ3M2ZkMWZj/NS5wbmc.png",
     },
     {
         name: "Parvez Ahmed",
-        text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, modi recusandae? Qui dolorum, blanditiis vitae deleniti, aliquid, accusantium laboriosam assumenda optio labore quae reiciendis error quo a eveniet sed in.",
+        text: "I have had the pleasure of working closely with Abu Taher on several web development projects, and I must say, their skills and dedication impression on me.",
+        work: "Web Developer",
+        img: "https://ouch-cdn2.icons8.com/CLkc_2dBZOEddkT6m6uyMRJnFR5YBkxjm2cMlkToRPE/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNTY5/LzIyYWNhYTcwLTI4/OTAtNGUwZC04ZGFj/LTI2ZmFmZDJjNzY2/YS5wbmc.png",
+    },
+    {
+        name: "Sayed Siam",
+        text: "Abu Taher possesses an impressive skill set in both Front-End and Back-End technologies, allowing them to excel in various aspects of web development.",
         work: "Web Developer",
         img: "https://ouch-cdn2.icons8.com/CLkc_2dBZOEddkT6m6uyMRJnFR5YBkxjm2cMlkToRPE/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNTY5/LzIyYWNhYTcwLTI4/OTAtNGUwZC04ZGFj/LTI2ZmFmZDJjNzY2/YS5wbmc.png",
     }

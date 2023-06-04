@@ -7,10 +7,10 @@ export const CurtainMenuPage = ({ open, setOpen }) => {
         <Menu open={open}>
             <AiOutlineClose onClick={() => setOpen((prevState) => !prevState)} className='absolute top-4 right-4 font-bold text-pink-600 cursor-pointer' size={'2.5rem'} />
             <MenuContainer>
-                <MenuItem href="#">Home</MenuItem>
-                <MenuItem href="#">Contact</MenuItem>
-                <MenuItem href="#">Services</MenuItem>
-                <MenuItem href="#">Components</MenuItem>
+                <MenuItem href="#home">Home</MenuItem>
+                <MenuItem href="#project">Project</MenuItem>
+                <MenuItem href="#testimonial">Testimonial</MenuItem>
+                <MenuItem href="#contact">Contact</MenuItem>
             </MenuContainer>
         </Menu>
     );

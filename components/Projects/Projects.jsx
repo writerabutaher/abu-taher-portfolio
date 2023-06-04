@@ -1,5 +1,9 @@
 import React from 'react'
 import { AiFillGithub, AiFillProject } from 'react-icons/ai'
+import eye_care from '../../assets/eye_care.png'
+import orbit_zone from '../../assets/orbit_zone.png'
+import schedu_plannr from '../../assets/schedu_plannr.png'
+import Image from 'next/image'
 
 const Projects = () => {
     return (
@@ -12,7 +16,7 @@ const Projects = () => {
                     projects.map((project, i) => {
                         const { name, live, github, list, img } = project
                         return (
-                            <div key={i} className='flex flex-col-reverse md:flex-row justify-between gap-4 shadow-lg md:p-8 py-4 rounded-lg'>
+                            <div key={i} className='flex flex-col-reverse md:flex-row justify-between items-center gap-4 shadow-lg md:p-8 py-4 rounded-lg'>
                                 <div className='flex flex-col gap-8 md:w-1/2'>
                                     <div className='flex items-center gap-4'>
                                         <AiFillProject size={'3rem'} className='text-pink-600' />
@@ -57,7 +61,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div className='md:w-1/2'>
-                                    <img src={img} alt="" />
+                                    <Image src={img} alt="project" />
                                 </div>
                             </div>
                         )
@@ -73,7 +77,7 @@ const projects = [
         name: "Schedu Plannr",
         live: "https://schedu-plannr.web.app/",
         github: "https://github.com/asifsikder23/ScheduPlannr-client",
-        img: "https://img.freepik.com/free-vector/back-school-landing-page_23-2148624215.jpg?size=626&ext=jpg",
+        img: schedu_plannr,
         list: [
             <li>This provides make scheduling easier for any kinds of meetings.</li>,
             <li>Users can Create, Update, Delete, Share, and Copy meeting links in the clipboard.</li>,
@@ -85,7 +89,7 @@ const projects = [
         name: "Orbit Zone",
         live: "https://orbit-zone.web.app/",
         github: "https://github.com/writerabutaher/Orbit-Zone-Client",
-        img: "https://img.freepik.com/free-psd/modern-landing-page-mockup_23-2148095008.jpg?w=900&t=st=1674925898~exp=1674926498~hmac=6486c9f8f057aab6680b10786264190f50b2661127ed7158503fff7c56022d23",
+        img: orbit_zone,
         list: [
             <li>This is a user friendly buy and selling application.</li>,
             <li>There are three types of categories and vehicles of any brand and model available.</li>,
@@ -97,7 +101,7 @@ const projects = [
         name: "Eye Care",
         live: "https://eye-care-assignment.web.app/",
         github: "https://github.com/writerabutaher/Eye-Care-Client",
-        img: "https://img.freepik.com/free-vector/back-school-landing-page_23-2148624215.jpg?size=626&ext=jpg",
+        img: eye_care,
         list: [
             <li>A eye caring service provide this application.</li>,
             <li>Each eye service has its own details, some users review, and a review section to give the review.</li>,
