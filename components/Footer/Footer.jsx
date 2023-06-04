@@ -10,13 +10,13 @@ const Footer = () => {
           <h1 className='text-white text-3xl'>Abu Taher</h1>
         </div>
         <div className='flex justify-center gap-4'>
-          <a href="" target='_blank' className='bg-pink-600 text-white rounded-full p-2 border-none border-pink-600 hover:text-pink-600 hover:bg-white'>
+          <a href="https://github.com/writerabutaher" target='_blank' className='bg-pink-600 text-white rounded-full p-2 border-none border-pink-600 hover:text-pink-600 hover:bg-white'>
             <AiFillGithub size={'2rem'} />
           </a>
-          <a href="" target='_blank' className='bg-pink-600 text-white rounded-full p-2 border-none border-pink-600 hover:text-pink-600 hover:bg-white'>
+          <a href="https://www.facebook.com/abutaher9682/" target='_blank' className='bg-pink-600 text-white rounded-full p-2 border-none border-pink-600 hover:text-pink-600 hover:bg-white'>
             <AiFillFacebook size={'2rem'} />
           </a>
-          <a href="" target='_blank' className='bg-pink-600 text-white rounded-full p-2 border-none border-pink-600 hover:text-pink-600 hover:bg-white'>
+          <a href="https://www.linkedin.com/in/writerabutaher/" target='_blank' className='bg-pink-600 text-white rounded-full p-2 border-none border-pink-600 hover:text-pink-600 hover:bg-white'>
             <AiFillLinkedin size={'2rem'} />
           </a>
         </div>
