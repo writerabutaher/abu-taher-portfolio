@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='md:mt-20 mt-10'>
             <div className='flex flex-col md:flex-row-reverse gap-4 justify-between items-center'>
                 <div className='flex justify-center'>
-                    <Image className='w-[30rem]' src={profile} alt='profile' />
+                    <Image className='w-[28rem]' src={profile} alt='profile' />
                 </div>
                 <div className='flex flex-col md:gap-6 gap-4 md:w-1/2'>
                     <div className='flex flex-col md:gap-4 gap-2'>
