@@ -10,7 +10,7 @@ const Testimonial = () => {
     return (
         <div id='testimonial' className='md:my-32 mt-20'>
             <div className='md:pb-10 pb-6'>
-                <h1 className='md:text-6xl text-4xl text-center'><span className='relative before:absolute before:w-full before:h-2 before:bg-pink-600 before:bottom-1'><span className='relative text-white'>TESTIMONIAL</span></span></h1>
+                <h1 className='md:text-6xl text-4xl text-center'><span className='relative before:absolute before:w-full before:h-2 before:bg-teal-500 before:bottom-1'><span className='relative '>TESTIMONIAL</span></span></h1>
             </div>
             <div>
                 <Splide
@@ -40,11 +40,11 @@ const Testimonial = () => {
                                             </div>
                                             <div className='flex justify-between items-center pt-4'>
                                                 <div className='flex flex-col md:flex-row md:items-center gap-4'>
-                                                    <div className='border-pink-600 border-2 md:w-24 w-16'></div>
+                                                    <div className='border-teal-500 border-2 md:w-24 w-16'></div>
                                                     <h1 className='md:text-4xl text-2xl text-gray-200'>{name}<br /><span className='md:text-3xl text-xl'>{work}</span></h1>
                                                 </div>
                                                 <div>
-                                                    <FaQuoteRight className='text-pink-600' size={'3rem'} />
+                                                    <FaQuoteRight className='text-teal-500' size={'3rem'} />
                                                 </div>
                                             </div>
                                         </div>

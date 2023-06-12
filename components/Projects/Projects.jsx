@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div id='projects' className='md:my-32 my-20'>
             <div className='md:pb-10 pb-6'>
-                <h1 className='md:text-6xl text-3xl text-center'><span className='relative before:absolute before:w-full before:h-2 before:bg-pink-600 before:bottom-1'><span className='relative text-white'>MY PROJECTS</span></span></h1>
+                <h1 className='md:text-6xl text-3xl text-center'><span className='relative before:absolute before:w-full before:h-2 before:bg-teal-500 before:bottom-1'><span className='relative '>MY PROJECTS</span></span></h1>
             </div>
             <div className='space-y-8'>
                 {
@@ -19,16 +19,16 @@ const Projects = () => {
                             <div key={i} className='flex flex-col-reverse md:flex-row justify-between items-center gap-4 shadow-lg md:p-8 py-4 rounded-lg'>
                                 <div className='flex flex-col gap-8 md:w-1/2'>
                                     <div className='flex items-center gap-4'>
-                                        <AiFillProject size={'3rem'} className='text-pink-600' />
-                                        <h1 className='md:text-4xl text-xl text-white'>{name}</h1>
-                                        <div className='border-pink-600 border-2 w-1/4'></div>
+                                        <AiFillProject size={'3rem'} className='text-teal-500' />
+                                        <h1 className='md:text-4xl text-xl '>{name}</h1>
+                                        <div className='border-teal-500 border-2 w-1/4'></div>
                                     </div>
-                                    <div className='flex flex-col gap-2 text-white md:text-lg'>
+                                    <div className='flex flex-col gap-2  md:text-lg'>
                                         {list}
                                     </div>
                                     <div className='flex gap-4'>
                                         <a
-                                            className="group relative inline-flex items-center overflow-hidden rounded-full border border-current px-8 py-3 text-white focus:outline-none focus:ring active:text-pink-500 bg-pink-600 hover:bg-white hover:text-pink-600 border-none"
+                                            className="group relative inline-flex items-center overflow-hidden rounded-full border border-current px-8 py-3  focus:outline-none focus:ring active:text-teal-500 bg-teal-500 hover:bg-white hover:text-teal-500 border-none"
                                             href={live}
                                             target='_blank'
                                         >
@@ -55,7 +55,7 @@ const Projects = () => {
                                                 Live Demo
                                             </span>
                                         </a>
-                                        <a href={github} target='_blank' className='bg-pink-600 text-white rounded-full p-2 border-none border-pink-600 hover:text-pink-600 hover:bg-white'>
+                                        <a href={github} target='_blank' className='bg-teal-500  rounded-full p-2 border-none border-teal-500 hover:text-teal-500 hover:bg-white'>
                                             <AiFillGithub size={'2rem'} />
                                         </a>
                                     </div>

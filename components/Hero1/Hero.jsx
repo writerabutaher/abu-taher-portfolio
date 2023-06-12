@@ -16,7 +16,7 @@ const Hero = () => {
                 <div className='flex flex-col md:gap-6 gap-4 md:w-1/2'>
                     <div className='flex flex-col md:gap-4 gap-2'>
                         <h3 className='md:text-3xl text-xl font-semibold tracking-widest text-gray-400'>Hello I'm</h3>
-                        <h1 className='md:text-5xl text-2xl font-semibold tracking-wider text-pink-600'>
+                        <h1 className='md:text-5xl text-2xl font-semibold tracking-wider text-teal-500'>
                             <Typewriter
                                 cursor
                                 delaySpeed={1000}
@@ -36,7 +36,7 @@ const Hero = () => {
                     <p className='text-gray-400 text-sm md:text-base'>I am equipped to build scalable and efficient web applications. Having successfully completed multiple projects with a focus on team collaboration, project management, and delivering high-quality work.</p>
                     <div>
                         <a
-                            className="inline-flex items-center rounded-full border border-pink-600 bg-pink-600 px-8 py-3 text-white hover:bg-transparent hover:text-pink-600 focus:outline-none focus:ring active:text-pink-500"
+                            className="inline-flex items-center rounded-full border border-teal-500 bg-teal-500 px-8 py-3  hover:bg-transparent hover:text-teal-500 focus:outline-none focus:ring active:text-teal-500"
                             href="https://drive.google.com/file/d/1DwZ66Vk4bN5g_Oj-fVobGA5twpayYbUu/view?usp=drive_link" target={'_blank'}
                         >
                             <span className="text-sm font-medium"> Resume </span>
