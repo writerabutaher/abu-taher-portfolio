@@ -1,12 +1,9 @@
-"use client"
+"use client";
 
-import About from "@/components/About/About";
 import Contact from "@/components/Contact/Contact";
-// import Hero from "@/components/Hero1/Hero";
-import Projects from "@/components/Projects/Projects";
 import ScrollIndicator from "@/components/Scroll/Scroll";
-import Skills from "@/components/Skills/Skills";
 import Testimonial from "@/components/Testimonial/Testimonial";
+import { About } from "@/components/about/About";
 import { Hero } from "@/components/hero/Hero";
 import { Heading } from "@/components/nav/Heading";
 import { SideBar } from "@/components/nav/SideBar";
@@ -14,19 +11,18 @@ import { SideBar } from "@/components/nav/SideBar";
 export default function Home() {
   return (
     <ScrollIndicator>
-      <div className="grid" style={{ "grid-template-columns": "60px 1fr" }}>
+      <div
+        className="grid"
+        style={{ gridTemplateColumns: "60px 1fr" }}>
         <SideBar />
         <main>
           <Heading />
           <Hero />
-          {/* <Hero /> */}
-          {/* <About /> */}
-          {/* <Skills /> */}
-          {/* <Projects /> */}
-          {/* <Testimonial /> */}
-          {/* <Contact /> */}
+          <About />
+          {/* <Testimonial />
+          <Contact /> */}
         </main>
       </div>
     </ScrollIndicator>
-  )
+  );
 }
