@@ -5,10 +5,8 @@
 :root {
   font-size: 62.5%;
 
-  /* --background: rgb(17, 17, 17);
-    --bg-opaque: rgb(17, 17, 17, 0.25);
-    --background-light: rgb(35, 35, 35);
-    --background-dark: rgb(8, 8, 8); */
+  --background-light: #334155;
+  --background-dark: #0f172a;
 
   --text: white;
   --brand: #0d9488;
@@ -64,7 +62,7 @@ a {
 
 .chip {
   font-size: var(--text-xs);
-  background: var(--brand);
+  background: var(--background-light);
   padding: 0.2rem 0.8rem;
   border-radius: 999px;
 }

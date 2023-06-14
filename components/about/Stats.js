@@ -8,10 +8,7 @@ export const Stats = () => {
       <Reveal>
         <div className={styles.statColumn}>
           <h4>
-            <AiFillCode
-              size="2.4rem"
-              color="var(--brand)"
-            />
+            <AiFillCode size="2.6rem" color="var(--brand)" />
             <span>Front End</span>
           </h4>
           <div className={styles.statGrid}>
@@ -32,7 +29,7 @@ export const Stats = () => {
         <div className={styles.statColumn}>
           <h4>
             <AiFillCode
-              size="2.4rem"
+              size="2.6rem"
               color="var(--brand)"
               className="rotate-180"
             />

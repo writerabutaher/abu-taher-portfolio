@@ -7,16 +7,12 @@ import { Typewriter } from "react-simple-typewriter";
 
 export const Hero = () => {
   return (
-    <section className={`section-wrapper ${styles.hero}`}>
+    <section className={`section-wrapper`}>
       <div
         className={`${styles.copyWrapper} flex flex-col justify-between items-center md:flex-row-reverse gap-20`}>
         <Reveal>
           <div className="flex justify-center">
-            <Image
-              className="w-[40rem]"
-              src={profile}
-              alt="profile"
-            />
+            <Image className="w-[40rem]" src={profile} alt="profile" />
           </div>
         </Reveal>
         <div>
