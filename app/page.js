@@ -12,15 +12,17 @@ import { Projects } from "@/components/projects/Projects";
 export default function Home() {
   return (
     <ScrollIndicator>
-      <div className="grid" style={{ gridTemplateColumns: "60px 1fr" }}>
+      <div
+        className="grid"
+        style={{ gridTemplateColumns: "60px 1fr" }}>
         <SideBar />
         <main>
           <Heading />
           <Hero />
           <About />
           <Projects />
-          {/* <Testimonial />
-          <Contact /> */}
+          <Testimonial />
+          <Contact />
         </main>
       </div>
     </ScrollIndicator>
