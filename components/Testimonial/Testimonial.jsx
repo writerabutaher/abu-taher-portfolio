@@ -69,19 +69,16 @@ const testimonials = [
     name: "Asif Sikder",
     text: " I highly recommend Abu Taher for any web development role. Their exceptional skills, dedication, and passion for their work make them a valuable asset to any team.",
     work: "Web Developer",
-    img: "https://ouch-cdn2.icons8.com/-JZptPGuKRXkyuzdLeFBi71mdKqKYQHlVYx_4AQFhdQ/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNTIx/LzYyOTBlMmU4LWQ2/NmMtNDgzMS1hOWFl/LTUwNDQ3M2ZkMWZj/NS5wbmc.png",
   },
   {
     name: "Parvez Ahmed",
-    text: "I have had the pleasure of working closely with Abu Taher on several web development projects, and I must say, their skills and dedication impression on me.",
+    text: "I have had the pleasure of working closely with Abu Taher on several web development projects and works. So, I must say, their skills and dedication impression on me.",
     work: "Web Developer",
-    img: "https://ouch-cdn2.icons8.com/CLkc_2dBZOEddkT6m6uyMRJnFR5YBkxjm2cMlkToRPE/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNTY5/LzIyYWNhYTcwLTI4/OTAtNGUwZC04ZGFj/LTI2ZmFmZDJjNzY2/YS5wbmc.png",
   },
   {
     name: "Sayed Siam",
-    text: "Abu Taher possesses an impressive skill set in both Front-End and Back-End technologies, allowing them to excel in various aspects of web development.",
+    text: "Abu Taher possesses an impressive skill set in both Front-End and Back-End technologies, Front-End is much more better allowing them to excel in various aspects of web development.",
     work: "Web Developer",
-    img: "https://ouch-cdn2.icons8.com/CLkc_2dBZOEddkT6m6uyMRJnFR5YBkxjm2cMlkToRPE/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNTY5/LzIyYWNhYTcwLTI4/OTAtNGUwZC04ZGFj/LTI2ZmFmZDJjNzY2/YS5wbmc.png",
   },
 ];
 

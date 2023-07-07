@@ -1,0 +1,6 @@
+.text {
+  font-size: var(--text-sm);
+  @media (min-width: 768px) {
+    font-size: var(--text-md);
+  }
+}
